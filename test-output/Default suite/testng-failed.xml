@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.versapay.qa.test.Test">
+      <class name="com.versapay.qa.test.ProductOverviewPageTest">
         <methods>
-          <include name="MethodOne"/>
-          <include name="MethodThree"/>
-          <include name="startUp"/>
-          <include name="tearDown"/>
+          <include name="bookFreeDemoTest"/>
           <include name="loggersetUp"/>
+          <include name="startUp"/>
         </methods>
-      </class> <!-- com.versapay.qa.test.Test -->
+      </class> <!-- com.versapay.qa.test.ProductOverviewPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
