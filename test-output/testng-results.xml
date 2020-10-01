@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-29T21:12:00Z" name="Default suite" finished-at="2020-09-29T21:12:16Z" duration-ms="15992">
+  <suite name="Default suite" duration-ms="20319" started-at="2020-10-01T22:57:48Z" finished-at="2020-10-01T22:58:09Z">
     <groups>
     </groups>
-    <test started-at="2020-09-29T21:12:00Z" name="Default test" finished-at="2020-09-29T21:12:16Z" duration-ms="15992">
+    <test name="Default test" duration-ms="20319" started-at="2020-10-01T22:57:48Z" finished-at="2020-10-01T22:58:09Z">
       <class name="com.versapay.qa.test.FAQPageTest">
-        <test-method is-config="true" signature="loggersetUp()[pri:0, instance:com.versapay.qa.test.FAQPageTest@23f7d05d]" started-at="2020-09-29T21:12:00Z" name="loggersetUp" finished-at="2020-09-29T21:12:00Z" duration-ms="103" status="PASS">
+        <test-method status="PASS" signature="loggersetUp()[pri:0, instance:com.versapay.qa.test.FAQPageTest@6e75aa0d]" name="loggersetUp" is-config="true" duration-ms="113" started-at="2020-10-01T22:57:48Z" finished-at="2020-10-01T22:57:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loggersetUp -->
-        <test-method is-config="true" signature="starUp()[pri:0, instance:com.versapay.qa.test.FAQPageTest@23f7d05d]" started-at="2020-09-29T21:12:00Z" name="starUp" finished-at="2020-09-29T21:12:16Z" duration-ms="15861" status="PASS">
+        <test-method status="PASS" signature="starUp()[pri:0, instance:com.versapay.qa.test.FAQPageTest@6e75aa0d]" name="starUp" is-config="true" duration-ms="13359" started-at="2020-10-01T22:57:48Z" finished-at="2020-10-01T22:58:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- starUp -->
-        <test-method signature="TestNumberOne()[pri:0, instance:com.versapay.qa.test.FAQPageTest@23f7d05d]" started-at="2020-09-29T21:12:16Z" name="TestNumberOne" finished-at="2020-09-29T21:12:16Z" duration-ms="5" status="PASS">
+        <test-method status="PASS" signature="verifyFQAlinks()[pri:0, instance:com.versapay.qa.test.FAQPageTest@6e75aa0d]" name="verifyFQAlinks" duration-ms="5013" started-at="2020-10-01T22:58:02Z" finished-at="2020-10-01T22:58:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestNumberOne -->
+        </test-method> <!-- verifyFQAlinks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.versapay.qa.test.FAQPageTest@6e75aa0d]" name="tearDown" is-config="true" duration-ms="1794" started-at="2020-10-01T22:58:07Z" finished-at="2020-10-01T22:58:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.versapay.qa.test.FAQPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

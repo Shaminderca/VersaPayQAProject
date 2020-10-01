@@ -56,12 +56,13 @@ public class HomePage extends TestBase {
 	WebElement overview;
 	
 	
-	public boolean signUp() {
+	public boolean signUp(String email) {
 		jse = (JavascriptExecutor) driver;
 		jse.executeScript("arguments[0].scrollIntoView(true);",emailfield);
-		emailfield.sendKeys("abcdef@gmail.com");
+		emailfield.sendKeys(email);
 		signUpButton.click();
 	    return signedUpMessage.isDisplayed();
+		
 		
 	}
 	
@@ -99,5 +100,5 @@ public class HomePage extends TestBase {
 		return new FAQPage();
 		
 	}
-	
+
 }
