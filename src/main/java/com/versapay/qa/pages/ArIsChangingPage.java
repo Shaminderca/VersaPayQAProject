@@ -25,7 +25,6 @@ public class ArIsChangingPage extends TestBase {
 		jse = (JavascriptExecutor) driver;
 		jse.executeScript("arguments[0].scrollIntoView(true);",image);
 		return image.isDisplayed();
-	
 		
 	}
 	
@@ -34,6 +33,10 @@ public class ArIsChangingPage extends TestBase {
 		jse.executeScript("arguments[0].scrollIntoView(true);",name);
 		return name.isDisplayed();
 		
+	}
+	
+	public WebElement ceoName() {
+		return name;
 	}
 }
 

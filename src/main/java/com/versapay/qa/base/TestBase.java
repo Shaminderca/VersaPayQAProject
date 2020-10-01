@@ -40,11 +40,9 @@ public TestBase() {
 	FileInputStream fis;//this should be discussed
 	
 	try {
-		fis = new FileInputStream("./src\\main\\java\\com\\versapay\\qa\\configuration\\Config.properties"
-				);
+		fis = new FileInputStream("./src\\main\\java\\com\\versapay\\qa\\configuration\\Config.properties");
 		prop.load(fis);
 	 } catch (Exception e) {
-		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
 	

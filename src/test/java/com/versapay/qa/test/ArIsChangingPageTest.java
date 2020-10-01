@@ -12,7 +12,8 @@ import com.versapay.qa.pages.HomePage;
 public class ArIsChangingPageTest extends TestBase {
 	HomePage hp;
 	ArIsChangingPage ar;
-	
+
+
 	@BeforeMethod
 	void startUp()
 	{
@@ -20,21 +21,23 @@ public class ArIsChangingPageTest extends TestBase {
 		hp = new HomePage();
 		ar = hp.navigateToArIsChangingPage();
 	}
-	
+
 	@Test(priority=1)
 	void imageDisplayTest()
 	{
 		boolean flag = ar.imageDisplay();
 		Assert.assertTrue(flag);
 	}
-	
+
 	@Test(priority = 2)
 	void nameDisplayTest()
 	{
 		boolean flag = ar.nameDisplay();
 		Assert.assertTrue(flag);
+		System.out.println();
+		Assert.assertEquals(ar.ceoName().getText(), prop.getProperty("ceoName"));
 	}
-	
+
 	@AfterMethod
 	void tearDown()
 	{
