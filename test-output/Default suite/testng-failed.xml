@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.versapay.qa.test.ArIsChangingPageTest">
+      <class name="com.versapay.qa.test.HomePageTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="loggersetUp"/>
-          <include name="nameDisplayTest"/>
           <include name="startUp"/>
+          <include name="loggersetUp"/>
+          <include name="signUpTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.versapay.qa.test.ArIsChangingPageTest -->
+      </class> <!-- com.versapay.qa.test.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

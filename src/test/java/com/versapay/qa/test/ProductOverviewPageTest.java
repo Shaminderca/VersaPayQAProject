@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 import com.versapay.qa.base.TestBase;
 import com.versapay.qa.pages.HomePage;
 import com.versapay.qa.pages.ProductOverViewPage;
-import com.versapay.qa.utils.ExcelUtility;
 
 public class ProductOverviewPageTest extends TestBase {
 	HomePage hp;
