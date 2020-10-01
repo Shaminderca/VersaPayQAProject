@@ -44,6 +44,7 @@ public class HomePageTest extends TestBase {
 		String flag =hp.emptySignUp();
 		Assert.assertEquals(flag, prop.getProperty("color"));
 	}
+	
 
 	@AfterMethod
 	void tearDown() {

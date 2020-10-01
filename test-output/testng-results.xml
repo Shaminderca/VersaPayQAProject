@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="1" total="2" passed="0">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="216" started-at="2020-10-01T05:24:37Z" finished-at="2020-10-01T05:24:37Z">
+  <suite name="Default suite" duration-ms="153" started-at="2020-10-01T07:09:56Z" finished-at="2020-10-01T07:09:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="216" started-at="2020-10-01T05:24:37Z" finished-at="2020-10-01T05:24:37Z">
-      <class name="com.versapay.qa.test.HomePageTest">
-        <test-method status="PASS" signature="loggersetUp()[pri:0, instance:com.versapay.qa.test.HomePageTest@2cbb3d47]" name="loggersetUp" is-config="true" duration-ms="166" started-at="2020-10-01T05:24:37Z" finished-at="2020-10-01T05:24:37Z">
+    <test name="Default test" duration-ms="153" started-at="2020-10-01T07:09:56Z" finished-at="2020-10-01T07:09:56Z">
+      <class name="com.versapay.qa.test.ProductOverviewPageTest">
+        <test-method status="PASS" signature="loggersetUp()[pri:0, instance:com.versapay.qa.test.ProductOverviewPageTest@2cbb3d47]" name="loggersetUp" is-config="true" duration-ms="111" started-at="2020-10-01T07:09:56Z" finished-at="2020-10-01T07:09:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loggersetUp -->
-        <test-method status="SKIP" signature="signUpTest(java.lang.String)[pri:1, instance:com.versapay.qa.test.HomePageTest@2cbb3d47]" name="signUpTest" duration-ms="0" started-at="2020-10-01T05:24:37Z" data-provider="getSignUpData" finished-at="2020-10-01T05:24:37Z">
+        <test-method status="SKIP" signature="bookFreeDemoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.versapay.qa.test.ProductOverviewPageTest@2cbb3d47]" name="bookFreeDemoTest" duration-ms="0" started-at="2020-10-01T07:09:56Z" data-provider="getDemoData" finished-at="2020-10-01T07:09:56Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException]]>
@@ -42,7 +42,7 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: java.lang.NullPointerException
-at com.versapay.qa.test.HomePageTest.getSignUpData(HomePageTest.java:38)
+at com.versapay.qa.test.ProductOverviewPageTest.getDemoData(ProductOverviewPageTest.java:39)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -56,8 +56,8 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(Met
           </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signUpTest -->
-      </class> <!-- com.versapay.qa.test.HomePageTest -->
+        </test-method> <!-- bookFreeDemoTest -->
+      </class> <!-- com.versapay.qa.test.ProductOverviewPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

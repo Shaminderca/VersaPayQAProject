@@ -41,15 +41,15 @@ public class ProductOverViewPage extends TestBase {
 	@FindBy(xpath="//div[@class='cMmfqTv2K0TpU4uu1br8B']")
 	WebElement seeYouSoon;
 	
-	public boolean bookFreeDemo() {
+	public boolean bookFreeDemo(String fName,String lName,String emailId, String company, String phoneNo) {
 		
 		bookFreeDemo.click();
 		wait.until(ExpectedConditions.visibilityOf(firstName));
-		firstName.sendKeys("abcd");
-		lastName.sendKeys("efgh");
-		email.sendKeys("ijkl@gmail.com");
-		companyName.sendKeys("mnop");
-		phone.sendKeys("98784534");
+		firstName.sendKeys(fName);
+		lastName.sendKeys(lName);
+		email.sendKeys(emailId);
+		companyName.sendKeys(company);
+		phone.sendKeys(phoneNo);
 		submitButton.click();
 		return seeYouSoon.isDisplayed();
 		
