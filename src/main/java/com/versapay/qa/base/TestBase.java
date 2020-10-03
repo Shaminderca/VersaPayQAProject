@@ -35,7 +35,7 @@ public static WebEventsListener eventListener;//for event firing webdriver
 public TestBase() {
 	
 	
-	
+	//properties File Added
 	prop = new Properties();
 	FileInputStream fis;//this should be discussed
 	
