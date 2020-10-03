@@ -5,7 +5,7 @@ import org.testng.ITestResult;
 
 import com.versapay.qa.base.TestBase;
 
-
+//This class keeps the count of the times for which a test is retired before marking it as failed.
 
 public class RetryFailedTests extends TestBase implements IRetryAnalyzer {
 //two things
@@ -17,6 +17,8 @@ public class RetryFailedTests extends TestBase implements IRetryAnalyzer {
 
 	@Override
 	public boolean retry(ITestResult result) {
+		
+		System.out.println("Inside Retry logic");
 
 		while (counter != maxCount) {
 			counter++;
