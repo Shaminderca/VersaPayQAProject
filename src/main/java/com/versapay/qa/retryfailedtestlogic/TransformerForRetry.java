@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 
 import org.testng.IAnnotationTransformer;
 import org.testng.annotations.ITestAnnotation;
-//this is lisener class for failed test cases
+//this is listener class for failed test cases
 public class TransformerForRetry implements IAnnotationTransformer {
 
 	@Override
